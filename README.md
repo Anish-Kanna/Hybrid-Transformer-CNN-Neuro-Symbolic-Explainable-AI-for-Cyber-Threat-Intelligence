@@ -521,7 +521,7 @@ python3 demo2.py
 
 ---
 
-## 8. 🔍 Explainability Methods
+## 8. Explainability Methods
 
 ### SHAP (SHapley Additive exPlanations)
 
