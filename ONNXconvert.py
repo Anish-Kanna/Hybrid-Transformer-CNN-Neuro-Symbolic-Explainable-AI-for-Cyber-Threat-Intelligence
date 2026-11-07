@@ -17,7 +17,7 @@ def convert_to_onnx():
         
         print("\n[1/4] Loading PyTorch model...")
         model = XAI_CTI_Model(input_dim=73)
-        model.load_state_dict(torch.load('xai_cti_model.pth'))
+        model.load_state_dict(torch.load('xai_cti_model.pth', weights_only=True))
         model.eval()
         print("✓ Model loaded successfully")
         
